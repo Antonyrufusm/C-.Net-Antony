@@ -1,4 +1,4 @@
-using System;
+using System; // comment
 using ClassLibrary1;
 
 namespace CLR_Test
