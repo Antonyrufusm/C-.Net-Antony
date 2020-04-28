@@ -1,4 +1,5 @@
 using System;
+using ClassLibrary1;
 
 namespace CLR_Test
 {
@@ -6,6 +7,8 @@ namespace CLR_Test
     {
         static void Main(string[] args)
         {
+            ClassSample classSample = new ClassSample();
+            classSample.Calculate();
             Console.WriteLine("Welcome Aspire");
             Console.ReadKey();
         }
